@@ -9,14 +9,6 @@ for x in range (len(fruits)):
     print("{:>100}{} {}".format("№-", y, fruits[x]))
     y+=1
 
-#Второй вар
-#fruits = ["banana", "mango", "apple", "kiwi", "orange","dragonfruit"]
-#y = 1
-#for x in range (len(fruits)):
-#    print("{}{} {:>20}".format(y,".", fruits[x]))
-#    y+=1
-
-
 # Пример:
 # Дано: ["яблоко", "банан", "киви", "арбуз"]
 # Вывод:
