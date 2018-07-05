@@ -4,18 +4,8 @@
 # но только если результаты извлечения корня не имеют десятичной части и
 # если такой корень вообще можно извлечь
 # Пример: Дано: [2, -5, 8, 9, -25, 25, 4]   Результат: [3, 5, 2]
-#import math
-#lst = [1,2, 8, 11, 16,80,167,856, -110, -56, -10]
-#lst_1 = []
-#x = len(lst)
-#for i in range(x):
-#    if lst[i]>0 and math.sqrt(i)%1 == 0:
-#        lst_1.append(lst[i])
-#        lst_1 = sqrt(lst_1)
-#print (lst_1)
-        
-#from math import sqrt
- 
+
+#from math import sqrt 
 #list = [1, 10, -3, 11, -15, 36, 189, 152, -166, 16]
 #new_list = []
 #for x in list:
@@ -52,10 +42,10 @@
 # Подсказка:
 # для получения случайного числа используйте функцию randint() модуля random
 
-from random import randint
-n = randint(1,10)
-random_list= [randint(-100,100) for i in range (n)]
-print(random_list)
+#from random import randint
+#n = randint(1,10)
+#random_list= [randint(-100,100) for i in range (n)]
+#print(random_list)
 
 # Задача-4: Дан список, заполненный произвольными целыми числами.
 # Получите новый список, элементами которого будут: 
@@ -64,6 +54,17 @@ print(random_list)
 # б) элементы исходного списка, которые не имеют повторений:
 # например, lst = [1 , 2, 4, 5, 6, 2, 5, 2], нужно получить lst2 = [1, 4, 6]
 
+#№1
+
+#list = [10, 15, 44, 100 , -100 , 156, 10, 3, 156, 10]
+#list2 = set(list)
+#print(list2)
+
+#№2
 list = [10, 15, 44, 100 , -100 , 156, 10, 3, 156, 10]
 list2 = []
+for i in list:
+    if i not in list:
+        list2.append(list[i])
+print (list2)
 
