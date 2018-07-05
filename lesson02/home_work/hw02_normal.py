@@ -61,10 +61,9 @@
 #print(list2)
 
 #№2
-list = [10, 15, 44, 100 , -100 , 156, 10, 3, 156, 10]
-list2 = []
-for i in list:
-    if i not in list:
-        list2.append(list[i])
-print (list2)
-
+#list = [10, 15, 44, 100 , -100 , 156, 10, 3, 156, 10]
+#list2 = []
+#for i in list:
+#    if list.count(i) ==1:
+#        list2.append(i)
+#print (list2)
