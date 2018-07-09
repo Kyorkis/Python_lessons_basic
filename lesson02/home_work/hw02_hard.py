@@ -3,6 +3,14 @@
 
 equation = 'y = -12x + 11111140.2121'
 x = 2.5
+#y = (-12*x) + 11111140.2121
+#print(y)
+
+name = equation.split(' ') 
+first_name = str(name[2]) 
+name[2] = first_name[:-1] 
+two_name = float(name[2]) * x + float(name[4]) 
+print(two_name) 
 # вычислите и выведите y
 
 
