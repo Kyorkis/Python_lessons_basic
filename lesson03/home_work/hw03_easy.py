@@ -49,7 +49,6 @@ def lucky_ticket(ticket_number):
             return 'Билет %s счастливый' %ticket_number
         else:
             return 'Билет %s несчастливый' %ticket_number
-#number = 123456
 print(lucky_ticket(123456))
 print(lucky_ticket(123006))
 print(lucky_ticket(12321))
