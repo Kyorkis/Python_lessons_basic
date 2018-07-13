@@ -58,15 +58,15 @@
 # Напишите собственную реализацию стандартной функции filter.
 # Разумеется, внутри нельзя использовать саму функцию filter.
 
-x = [11,121,-7,54,"Fdv", 9860,"Hello",11,-5]
-def filt(arg,obj):
-    print (obj)
-    x_1 = []
-    for i in obj :
-        if i != arg:
-            x_1.append(i)
-    print (x_1)
-filt(11,x)
+#x = [11,121,-7,54,"Fdv", 9860,"Hello",11,-5]
+#def filt(arg,obj):
+#    print (obj)
+#    x_1 = []
+#    for i in obj :
+#        if i != arg:
+#            x_1.append(i)
+#    print (x_1)
+#filt(11,x)
             
 #filt(4, z)
 # Задача-4:
@@ -75,5 +75,3 @@ filt(11,x)
 
 
 
-#x = [1,55,4,1,55,119,-10]
-#print (filter(x))

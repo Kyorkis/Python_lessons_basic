@@ -5,8 +5,8 @@
 # Получить новый список, элементы которого будут
 # квадратами элементов исходного списка
 # [1, 2, 4, 0] --> [1, 4, 16, 0]
-#list = [x**2 for x in range (1,25)]
-#print (list)
+list = [x**2 for x in range (1,25)]
+print (list)
 
 #list_1 = [15,87,10,55,3,-7,1,10,-9,22]
 #list_2 = [i**2 for i in list_1]
@@ -15,16 +15,19 @@
 # Задание-2:
 # Даны два списка фруктов.
 # Получить список фруктов, присутствующих в обоих исходных списках.
-#lst_1 = ["apple", "banana", "mango", "kiwi", "orange"]
-#lst_2 = ['mango','kiwi','carrot', 'dragonfruit']
-#lst_3 = [x for x in lst_1 if x in lst_2]
-#print(lst_3)
+
+lst_1 = ["apple", "banana", "mango", "kiwi", "orange"]
+lst_2 = ['mango','kiwi','carrot', 'dragonfruit']
+lst_3 = [x for x in lst_1 if x in lst_2]
+print(lst_3)
+
 # Задание-3:
 # Дан список, заполненный произвольными числами.
 # Получить список из элементов исходного, удовлетворяющих следующим условиям:
 # + Элемент кратен 3
 # + Элемент положительный
 # + Элемент не кратен 4
+
 #lst = [1,55,110,-5,5,235,678,3]
 #lst_2 = [x for x in lst if x %3 ==0 and x >0 and x %4 != 4]
 #print (lst_2)
