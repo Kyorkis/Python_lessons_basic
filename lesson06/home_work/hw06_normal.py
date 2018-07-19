@@ -15,3 +15,29 @@
 #  (Ученик --> Класс --> Учителя --> Предметы)
 # 4. Узнать ФИО родителей указанного ученика
 # 5. Получить список всех Учителей, преподающих в указанном классе
+
+class Student:
+    def __init__ (self,firstname,lastname,surname,dad,mom,class_room,class1,class2,class3):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.surname = surname
+        self.dad = dad
+        self.mom = mom
+        self.class_room = class_room
+        self.class1 = class1
+        self.class2 = class2
+        self.class3 = class3
+        self.fullname = ("{} {} {}".format (self.firstname, self.lastname, self.surname))            
+    def get_name(self):
+        return ("{}  {}  {}".format(self.firstname , self.lastname , self.surname))
+    
+    def get_parents(self):
+        return ("Родители ученика- {} Мать - {}, отец - {}".format(self.fullname,self.mom, self.dad))
+
+vasya = Student ("Пануков", "Василий", "Викторович", "Пануков Виктор Владимирович", "Панукова Ирина Дмитриевна", "5 A", "phisik", "mathematic", "literal")
+kolya = Student ("Ижорский", "Николай", "Петрович", "Ижорский Петр Васильевич", "Ижорская Анна Валерьевна", "5 A", "phisik", "mathematic", "literal")
+for students in Student:
+    print (students.class_room)
+#print(vasya.get_name())
+print (vasya.get_parents())
+print (kolya.get_parents())
